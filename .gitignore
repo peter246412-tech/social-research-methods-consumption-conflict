@@ -1,0 +1,16 @@
+.DS_Store
+*.tmp
+*.log
+~$*.docx
+
+# Keep reproducible project structure, but avoid accidentally committing large/private raw datasets.
+사과론research_project/data_raw/*
+!사과론research_project/data_raw/.gitkeep
+
+사과론research_project/data_processed/*
+!사과론research_project/data_processed/.gitkeep
+
+사과론research_project/output/*
+!사과론research_project/output/.gitkeep
+!사과론research_project/output/figures/
+!사과론research_project/output/figures/.gitkeep
